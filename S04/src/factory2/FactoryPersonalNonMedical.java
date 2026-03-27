@@ -13,7 +13,7 @@ public class FactoryPersonalNonMedical extends FactoryPersonal {
                 return new Registrator();
             }
 
-            default -> throw new IllegalArgumentException("Tip personal non medical necunoscut");
+            default -> throw new IllegalArgumentException("Tip personal non medical necunoscut!");
         }
     }
 }
